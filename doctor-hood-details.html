@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Doctor Hood</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<body>
+
+    <body class="min-h-full overflow-x-hidden relative">
+
+        <header class="border-b bg-white border-black-500">
+            <div class="container mx-auto py-5 px-4 flex justify-between items-center">
+                <a href="index.html">
+                    <img src="img/logo.svg" width="128" alt="logo">
+                </a>
+
+                <!-- This nav includes elements that will be controlled by JavaScript for showing/hiding the menu for mobile responsiveness -->
+
+                <nav
+                    class="absolute top-0 left-0 w-full bg-white h-content -translate-y-full transition-transform duration-300 lg:relative lg:bg-opacity-0 lg:h-auto lg:w-auto lg:translate-y-0 js-menu z-20">
+                    <a href="#" class="js-menu-close absolute p-2 top-0 right-0 lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" class="w-8 h-8"
+                            style="stroke: #000000; fill: #000000;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </a>
+                    <ul class="font-bold lg:text-2xl lg:text-black-900 lg:flex">
+                        <a class="hover:text-gray-600" href="index.html">
+                            <li class="py-4 px-8 border-b lg:border-0">Home</li>
+                        </a>
+                        <a class="hover:text-gray-600" href="shop.html">
+                            <li class="py-4 px-8 border-b lg:border-0">Shop</li>
+                        </a>
+                        <a class="hover:text-gray-600" href="contact.html">
+                            <li class="py-4 px-8 border-b lg:border-0">Contact</li>
+                        </a>
+                    </ul>
+                </nav>
+                <a href="#" class="js-menu-open lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="#000000" class="w-10 h-10">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+        <main class="container mx-auto">
+            <section class="py-8 md:py-12 lg:py-16">
+                <div class="flex flex-wrap">
+
+                    <div class="w-full md:w-1/2 px-4">
+
+                        <!-- This div will be used for slick carousel -->
+
+                        <div class="slider">
+                            <div><img src="img/Doctor Hood.png" alt="Doctor Hood" class="w-full rounded-lg"></div>
+                            <div><img src="img/Doctor Hood Close up.png" alt="Doctor Hood Close"
+                                    class="w-full rounded-lg"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="w-full md:w-1/2 px-4 text-center md:text-left">
+                        <h2 class="text-3xl font-bold text-white mb-4" style="font-family: Spray Letters, serif;">Doctor
+                            Hood</h2>
+                        <p class="text-xl text-white mb-4">$60.00 CAD</p>
+                        <p class="text-white mb-4">Midweight Hood, 100% Cotton, True to size.</p>
+
+
+                        <div class="mb-4">
+                            <span class="block text-gray-700 mb-2">Size</span>
+                            <div class="flex flex-wrap justify-center md:justify-start">
+                                <button
+                                    class="size-button border border-white bg-black-800 text-white px-4 py-2 mr-2 mb-2">S</button>
+                                <button
+                                    class="size-button border border-white bg-black-800 text-white px-4 py-2 mr-2 mb-2">M</button>
+                                <button
+                                    class="size-button border border-white bg-black-800 text-white px-4 py-2 mr-2 mb-2">L</button>
+                                <button
+                                    class="size-button border border-white bg-black-800 text-white px-4 py-2 mb-2">XL</button>
+                            </div>
+                        </div>
+
+
+                        <button
+                            class="bg-black border border-white text-white px-4 py-2 mx-auto font-serif transition-colors duration-300 hover:bg-white hover:text-black"
+                            style="font-family: Spray Letters, serif;">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="border-b bg-black border-black-500">
+            <div class="container mx-auto py-5 px-4 flex justify-between items-center md:mx-auto">
+                <a href="index.html"><img src="img/footer logo.svg" width="128" alt="logo"></a>
+                <span class="text-sm text-white py-6 px-8" style="font-family: spray letters, serif;">Copyright © 2024
+                    Vahan, All Rights Reserved
+                </span>
+
+                <!-- This nav includes elements that will be controlled by JavaScript for showing/hiding the menu for mobile responsiveness -->
+
+                <nav
+                    class="absolute top-0 left-0 w-full bg-green-400 -translate-y-full transition-transform duration-300 lg:relative lg:bg-opacity-0 lg:translate-y-0 z-20">
+
+                    <ul class="font-bold lg:text-2xl lg:text-white lg:flex lg:justify-center lg:space-x-8 lg:py-4 lg:px-0"
+                        style="margin-left: 20rem;">
+
+                        <li class="py-4 px-8 border-b lg:border-0 hover:text-gray-700">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="py-4 px-8 border-b lg:border-0 hover:text-gray-700">
+                            <a href="shop.html">Shop</a>
+                        </li>
+                        <li class="py-4 px-8 border-b lg:border-0 hover:text-gray-700">
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                </nav>
+                <div class="flex lg:items-center lg:justify-end">
+
+
+        </footer>
+
+        <!-- here is the jquery cdn link -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!-- here is the slick cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <!-- here is the lottie cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+        <!-- here is the aos cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <!-- here is the jquery form validation cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+        <!-- here is the leaflet map cdn link -->
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <!-- here is the link to my js file -->
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
